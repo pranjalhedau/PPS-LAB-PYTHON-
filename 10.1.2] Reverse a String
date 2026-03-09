@@ -1,5 +1,9 @@
 def reverse_string(input_string):
-	return(input_string[::-1])
+	X= ""
+	l = len(user_input)
+	for i in range(l-1,-1,-1):
+		X += user_input[i]
+	return X
 user_input = input("Enter a string: ")
 result = reverse_string(user_input)
 print(f"Original String: {user_input}")
