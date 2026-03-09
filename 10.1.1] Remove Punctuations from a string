@@ -1,0 +1,6 @@
+X = input()
+Y = ""
+for i in X:
+	if i.isalnum() or i.isspace():
+		Y += i
+print(Y)
